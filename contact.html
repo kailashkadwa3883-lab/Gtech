@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us – G Tech CCTV Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left"><span>📞 Call: <a href="tel:+918890977017">8890977017</a></span><span>📧 <a href="mailto:Guleriyatrading@gmail.com">Guleriyatrading@gmail.com</a></span></div>
+    <div class="topbar-right"><a href="https://wa.me/918890977017" target="_blank" class="topbar-wa">💬 WhatsApp Us</a></div>
+  </div>
+</div>
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon"><svg width="32" height="32" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#1e3a5f"/><circle cx="18" cy="18" r="10" stroke="#38bdf8" stroke-width="1.8"/><circle cx="18" cy="18" r="4" fill="#38bdf8"/><line x1="22" y1="14" x2="27" y2="9" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <div class="logo-text"><span class="logo-main">G Tech</span><span class="logo-sub">CCTV Solutions</span></div>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a><a href="services.html">Services</a><a href="products.html">Shop Online</a><a href="about.html">About Us</a><a href="contact.html" class="active">Contact Us</a>
+    </nav>
+    <a href="tel:+918890977017" class="btn-call">📞 8890977017</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Get In Touch</div>
+    <h1>Contact Us</h1>
+    <p>Get a free quote, book an installation, or ask any question. We respond within 24 hours.</p>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="contact-layout">
+      <div class="contact-info-col">
+        <h3>G Tech CCTV Solutions</h3>
+        <p>Whether you need a single camera or a complete security system — we're here to help. Call, WhatsApp, or fill the form.</p>
+        <div class="contact-cards">
+          <a href="tel:+918890977017" class="contact-card"><div class="cc-icon">📞</div><div><strong>Call / WhatsApp</strong><span>+91 88909 77017</span></div></a>
+          <a href="mailto:Guleriyatrading@gmail.com" class="contact-card"><div class="cc-icon">📧</div><div><strong>Email</strong><span>Guleriyatrading@gmail.com</span></div></a>
+          <div class="contact-card"><div class="cc-icon">📍</div><div><strong>Our Store</strong><span>Electronics Market, Kuchaman City, Rajasthan</span></div></div>
+          <div class="contact-card"><div class="cc-icon">🕐</div><div><strong>Working Hours</strong><span>Monday – Saturday: 9:00 AM – 7:00 PM</span></div></div>
+        </div>
+        <img src="install_2.jpg" alt="CCTV Installation" style="width:100%;height:200px;object-fit:cover;border-radius:12px;margin-top:.5rem;"/>
+      </div>
+      <div class="contact-form-col">
+        <div class="form-card" id="formCard">
+          <h3>Request a Free Quote</h3>
+          <p style="color:var(--muted);font-size:.9rem;margin-bottom:1.5rem;">Fill in your details — we'll call you back within 24 hours.</p>
+          <div class="form-row">
+            <div class="form-group"><label>Full Name *</label><input type="text" id="cName" placeholder="Your name"/></div>
+            <div class="form-group"><label>Phone / WhatsApp *</label><input type="tel" id="cPhone" placeholder="+91 XXXXX XXXXX"/></div>
+          </div>
+          <div class="form-group"><label>City / Area *</label><input type="text" id="cCity" placeholder="Your city or area"/></div>
+          <div class="form-group"><label>Property Type</label>
+            <select id="cType"><option value="">Select type</option><option>Home / Residence</option><option>Shop / Retail</option><option>Office</option><option>Factory / Warehouse</option><option>School / College</option><option>Other</option></select>
+          </div>
+          <div class="form-group"><label>How many cameras needed?</label>
+            <select id="cCount"><option value="">Not sure yet</option><option>1–2 cameras</option><option>3–4 cameras</option><option>5–8 cameras</option><option>8+ cameras</option></select>
+          </div>
+          <div class="form-group"><label>Message</label><textarea id="cMsg" rows="4" placeholder="Tell us about your requirements, budget, or any questions..."></textarea></div>
+          <button class="btn-primary btn-full" onclick="submitContact()">Send My Request 🚀</button>
+        </div>
+        <div class="form-success-card" id="formSuccess" style="display:none;">
+          <div class="success-icon">✅</div>
+          <h3>Request Submitted!</h3>
+          <p>Our team will call or WhatsApp you within <strong>24 hours</strong> with a free quote.</p>
+          <a href="products.html" class="btn-primary" style="margin-top:1.5rem;display:inline-block;">Browse Products</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" style="background:var(--bg2);padding-top:0;">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow">FAQs</div><h2>Frequently Asked Questions</h2></div>
+    <div class="faq-grid">
+      <div class="faq-item"><h4>Do you provide installation?</h4><p>Yes! Our certified technicians handle complete installation. We cover Kuchaman City and surrounding areas in Rajasthan.</p></div>
+      <div class="faq-item"><h4>What warranty do you offer?</h4><p>All cameras and DVRs come with 1-year manufacturer warranty. We offer free support and repair during this period.</p></div>
+      <div class="faq-item"><h4>Can I view cameras on my phone?</h4><p>Yes! All systems support live viewing via free mobile apps — works on both Android and iPhone.</p></div>
+      <div class="faq-item"><h4>How long does installation take?</h4><p>A 4-camera home setup takes 3–4 hours. Larger installations may take a full day. We schedule at your convenience.</p></div>
+      <div class="faq-item"><h4>Do you offer bulk discounts?</h4><p>Yes! Orders of 8+ cameras get special pricing. Contact us directly for a custom business quote.</p></div>
+      <div class="faq-item"><h4>Which brands do you carry?</h4><p>We stock Hikvision, Dahua, CP Plus and more — all 100% original with valid Indian warranty cards.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="footer-logo"><svg width="28" height="28" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#1e3a5f"/><circle cx="18" cy="18" r="10" stroke="#38bdf8" stroke-width="1.8"/><circle cx="18" cy="18" r="4" fill="#38bdf8"/></svg><div><span class="fl-main">G Tech</span><span class="fl-sub">CCTV Solutions</span></div></div><p>Professional CCTV solutions for homes and businesses across Rajasthan.</p></div>
+      <div class="footer-links"><h4>Quick Links</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="products.html">Shop Online</a><a href="contact.html">Contact Us</a></div>
+      <div class="footer-links"><h4>Services</h4><a href="services.html">CCTV Installation</a><a href="services.html">IP Camera</a><a href="services.html">Video Door Phone</a><a href="services.html">Access Control</a></div>
+      <div class="footer-contact"><h4>Contact</h4><p>📞 <a href="tel:+918890977017">8890977017</a></p><p>📧 Guleriyatrading@gmail.com</p><p>📍 Kuchaman City, Rajasthan</p><p>🕐 Mon–Sat: 9am – 7pm</p></div>
+    </div>
+    <div class="footer-bottom"><p>© 2024 G Tech CCTV Solutions. All rights reserved.</p></div>
+  </div>
+</footer>
+<script src="products-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
