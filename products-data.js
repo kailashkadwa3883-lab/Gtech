@@ -298,7 +298,192 @@ const PRODUCTS = [
     ],
     inBox: ["1x Mini Camera", "USB Charging Cable", "Magnetic Mount Stand", "User Manual"]
   }
-
+  ,
+  {
+    id: 10,
+    name: "CP-UNR-4K2081-V4",
+    brand: "CP Plus",
+    category: "kit",
+    tag: "NVR",
+    tagColor: "#1565c0",
+    subtitle: "8 Ch. 4K Network Video Recorder",
+    image: "nvr_8ch.png",
+    images: ["nvr_8ch.png", "dvr_box.png", "kit_8cam.png"],
+    shortDesc: "8Ch 4K NVR — AI by NVR/Camera, H.265, iCMOB/gCMOB App.",
+    description: "The CP-UNR-4K2081-V4 is an 8-channel 4K Network Video Recorder with industrial-grade performance. Features AI by NVR supporting 4-channel IMD, AI by Camera for perimeter protection, and Instastream technology for seamless remote viewing via iCMOB/gCMOB mobile apps.",
+    highlights: [
+      "8 Channel IP Camera Input",
+      "4K Ultra HD Recording",
+      "AI by NVR – 4 Channel IMD",
+      "AI by Camera – Perimeter Protection",
+      "1 SATA HDD up to 20TB",
+      "Mobile App: iCMOB, gCMOB"
+    ],
+    specs: [
+      { label: "Model", value: "CP-UNR-4K2081-V4" },
+      { label: "Type", value: "8 Ch. 4K Network Video Recorder" },
+      { label: "IP Camera Input", value: "Up to 8 Channel" },
+      { label: "Video Compression", value: "Instastream, H.265, H.264+, H.264, MJPEG" },
+      { label: "Max. Decoding", value: "6 × 1080p@30fps" },
+      { label: "Bandwidth", value: "Max. 80/80/60 Mbps (Incoming/Recording/Outgoing)" },
+      { label: "AI by NVR", value: "Supports 4 Channel IMD" },
+      { label: "AI by Camera", value: "Perimeter Protection, IMD" },
+      { label: "HDD Interface", value: "1 SATA HDD up to 20TB" },
+      { label: "USB Ports", value: "2 × USB" },
+      { label: "Video Output", value: "1 × HDMI, 1 × VGA" },
+      { label: "Network", value: "1 × RJ45" },
+      { label: "Mobile App", value: "iCMOB, gCMOB" },
+      { label: "CMS Software", value: "KVMS Pro Lite" }
+    ],
+    inBox: ["1x NVR Unit", "Power Adapter", "Mouse", "Quick Start Guide", "Warranty Card"]
+  },
+  {
+    id: 11,
+    name: "CP-UNR-4K2082-V3",
+    brand: "CP Plus",
+    category: "kit",
+    tag: "NVR",
+    tagColor: "#1565c0",
+    subtitle: "8 Ch. 4K Network Video Recorder",
+    image: "dvr_box.png",
+    images: ["dvr_box.png", "nvr_8ch.png", "kit_8cam.png"],
+    shortDesc: "8Ch 4K NVR — Industrial Processor, H.265, ONVIF, 2 SATA HDD.",
+    description: "The CP-UNR-4K2082-V3 is a professional-grade 8-channel 4K NVR with an industrial-grade processor and Embedded Linux OS. Supports Instastream, H.265, Smart H.264+ compression, HDMI/VGA simultaneous output, and is compatible with multi-brand ONVIF cameras.",
+    highlights: [
+      "Industrial-Grade Processor",
+      "Embedded Linux OS",
+      "H.265 / Smart H.264+ Compression",
+      "2 SATA HDDs up to 20TB",
+      "HDMI + VGA Simultaneous Output",
+      "ONVIF Compatible – Multi-brand Support"
+    ],
+    specs: [
+      { label: "Model", value: "CP-UNR-4K2082-V3" },
+      { label: "Type", value: "8 Ch. 4K Network Video Recorder" },
+      { label: "Processor", value: "Industrial-grade Processor" },
+      { label: "OS", value: "Embedded Linux" },
+      { label: "Video Compression", value: "Instastream, H.265, Smart H.264+, H.264" },
+      { label: "Max. Decoding", value: "6 × 1080p@30fps" },
+      { label: "Bandwidth", value: "Max. 80/80/60 Mbps (Incoming/Recording/Outgoing)" },
+      { label: "HDD Interface", value: "2 SATA HDDs up to 20TB each" },
+      { label: "USB Ports", value: "2 × USB" },
+      { label: "Video Output", value: "HDMI + VGA Simultaneous" },
+      { label: "Protocol", value: "ONVIF Supported" },
+      { label: "Camera Support", value: "Multi-brand Network Cameras" },
+      { label: "Mobile App", value: "iCMOB, gCMOB" },
+      { label: "CMS Software", value: "KVMS, KVMS Pro Lite" }
+    ],
+    inBox: ["1x NVR Unit", "Power Adapter", "2× SATA Cable", "Mouse", "Quick Start Guide", "Warranty Card"]
+  },
+  {
+    id: 12,
+    name: "CP-UCK-TD62N-B1",
+    brand: "CP Plus",
+    category: "kit",
+    tag: "Complete Kit",
+    tagColor: "#e53935",
+    subtitle: "2.4MP 6 Bullet + 2 Dome + 8Ch DVR Kit with Accessories",
+    image: "kit_8cam.png",
+    images: ["kit_8cam.png", "dvr_box.png", "nvr_8ch.png"],
+    shortDesc: "8 Camera Complete Kit — 6 Bullet + 2 Dome + 8Ch DVR + 90m Cable.",
+    description: "The CP-UCK-TD62N-B1 is a complete 8-camera surveillance kit ideal for homes, shops and small offices. Includes six 2.4MP bullet cameras, two 2.4MP dome cameras, an 8-channel DVR, 90m coaxial cable, and all required accessories. Ready to install straight out of the box.",
+    highlights: [
+      "6× 2.4MP Bullet Cameras",
+      "2× 2.4MP Dome Cameras",
+      "8 Channel DVR (without HDD)",
+      "90 Mtr. Coaxial Cable Included",
+      "All Accessories Included",
+      "Ready-to-Install Complete Kit"
+    ],
+    specs: [
+      { label: "Model", value: "CP-UCK-TD62N-B1" },
+      { label: "Kit Contents", value: "6× Bullet + 2× Dome + 1× 8Ch DVR + Cable" },
+      { label: "Bullet Camera", value: "2.4MP IR Bullet Camera (6 Pcs)" },
+      { label: "Dome Camera", value: "2.4MP IR Dome Camera (2 Pcs)" },
+      { label: "DVR", value: "8 Channel DVR (without HDD)" },
+      { label: "Cable", value: "90 Mtr. Coaxial Cable" },
+      { label: "Camera Resolution", value: "1920 × 1080 (2.4MP)" },
+      { label: "IR Range", value: "20–30 Mtrs." },
+      { label: "Total Cameras", value: "8 Cameras" },
+      { label: "Note", value: "HDD not included — purchase separately" }
+    ],
+    inBox: ["6x Bullet Cameras", "2x Dome Cameras", "1x 8Ch DVR", "90m Coaxial Cable", "Power Adapters", "Mouse", "All Mounting Hardware"]
+  },
+  {
+    id: 13,
+    name: "CP-UNC-TA21L3C-Q",
+    brand: "CP Plus",
+    category: "outdoor",
+    tag: "IP Camera",
+    tagColor: "#2e7d32",
+    subtitle: "2MP Network IR Bullet Camera – 30Mtr.",
+    image: "bullet_ip.png",
+    images: ["bullet_ip.png", "outdoor_1.jpg", "outdoor_2.jpg"],
+    shortDesc: "2MP IP Bullet — H.265, Built-in Mic, PoE, IP67, IR 30m.",
+    description: "The CP-UNC-TA21L3C-Q is a 2MP Network IR Bullet Camera with 1/2.8" PS CMOS sensor. Features Instastream H.265 compression, built-in microphone, Triple stream support, DWDR, 3D NR, and Power over Ethernet (PoE). Ideal for IP-based surveillance systems with remote viewing.",
+    highlights: [
+      "2MP PS CMOS – 1920×1080@25fps",
+      "Built-in Microphone",
+      "PoE (Power over Ethernet)",
+      "H.265 / H.264 Compression",
+      "IR Night Vision 30m, IP67",
+      "DWDR, 3D NR, ROI, BLC, HLC"
+    ],
+    specs: [
+      { label: "Model", value: "CP-UNC-TA21L3C-Q" },
+      { label: "Image Sensor", value: "1/2.8" 2MP PS CMOS (0.9071 cm)" },
+      { label: "Max. Resolution", value: "1920 × 1080 @ 1–25/30fps" },
+      { label: "Video Compression", value: "Instastream, H.265, H.264, H.264H, H.264B, MJPEG" },
+      { label: "Stream", value: "Triple Stream Support" },
+      { label: "Audio", value: "Built-in Microphone" },
+      { label: "Lens", value: "3.6mm Fixed" },
+      { label: "IR Range", value: "30 Mtrs." },
+      { label: "Weatherproof", value: "IP67" },
+      { label: "Power", value: "PoE (IEEE 802.3af)" },
+      { label: "Features", value: "DWDR, Day/Night ICR, 3D NR, ROI, AWB, AGC, BLC, HLC" },
+      { label: "Digital Watermarking", value: "Supported" },
+      { label: "Protocol", value: "ONVIF Compatible" }
+    ],
+    inBox: ["1x IP Bullet Camera", "Mounting Bracket", "Screws", "User Manual", "Warranty Card"]
+  },
+  {
+    id: 14,
+    name: "CP-UNC-BE21C-VMDS-Q",
+    brand: "CP Plus",
+    category: "indoor",
+    tag: "Box Camera",
+    tagColor: "#37474f",
+    subtitle: "2MP Full HD WDR Network Box Camera",
+    image: "box_cam.png",
+    images: ["box_cam.png", "bullet_ip.png", "outdoor_1.jpg"],
+    shortDesc: "2MP WDR Box Camera — C/CS Mount, 120dB WDR, Built-in Mic, SD Card.",
+    description: "The CP-UNC-BE21C-VMDS-Q is a professional 2MP Full HD WDR Network Box Camera with 1/2.9" PS CMOS sensor. Features 120dB WDR, Defog, EIS, Quad Stream, 2/1 alarm I/O, built-in mic, Micro SD card support, and PoE for flexible deployment in critical surveillance areas.",
+    highlights: [
+      "2MP Full HD – 1920×1080@25fps",
+      "120dB Wide Dynamic Range (WDR)",
+      "C/CS Mount Lens",
+      "Built-in Mic + Micro SD Card",
+      "2/1 Alarm In/Out",
+      "PoE + Defog + EIS"
+    ],
+    specs: [
+      { label: "Model", value: "CP-UNC-BE21C-VMDS-Q" },
+      { label: "Image Sensor", value: "1/2.9" 2MP PS CMOS (0.8758 cm)" },
+      { label: "Max. Resolution", value: "1920 × 1080 @ 1–25/30fps" },
+      { label: "Lens Mount", value: "C/CS Mount" },
+      { label: "Video Compression", value: "Instastream, H.265, H.264, H.264B, H.264H, MJPEG" },
+      { label: "Stream", value: "Quad Stream Support" },
+      { label: "WDR", value: "120dB" },
+      { label: "Features", value: "Day/Night ICR, 3D NR, Defog, ROI, EIS, AWB, AGC, BLC, HLC" },
+      { label: "Alarm I/O", value: "2/1 Alarm In/Out" },
+      { label: "Audio I/O", value: "1/1 Audio In/Out" },
+      { label: "Storage", value: "Micro SD Card Support" },
+      { label: "Audio", value: "Built-in Mic" },
+      { label: "Power", value: "PoE (IEEE 802.3af)" },
+      { label: "Protocol", value: "ONVIF Compatible" }
+    ],
+    inBox: ["1x Box Camera", "Power Adapter", "User Manual", "Warranty Card"]
+  }
 ];
 
 const FEATURED_IDS = [3, 4, 7, 9];
