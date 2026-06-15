@@ -12,7 +12,7 @@ const PRODUCTS = [
     image: "hikvision_1.jpg",
     images: ["hikvision_1.jpg", "hikvision_2.jpg", "hikvision_3.jpg"],
     shortDesc: "Original Hikvision bullet camera — sharp HD footage day & night.",
-    description: "The Hikvision HD Bullet Camera delivers crisp 1080p Full HD footage with powerful IR night vision. Built for both indoor and outdoor use, it features a rugged weatherproof housing and a wide-angle lens for maximum coverage. Trusted by thousands of homes and businesses across India.",
+    description: "The Hikvision HD Bullet Camera delivers crisp 1080p Full HD footage with powerful IR night vision. Built for both indoor and outdoor use, it features a rugged weatherproof housing and wide-angle lens for maximum coverage. Trusted by thousands of homes and businesses across India.",
     specs: [
       { label: "Brand", value: "Hikvision (Original)" },
       { label: "Resolution", value: "2MP – 1080p Full HD" },
@@ -28,7 +28,7 @@ const PRODUCTS = [
   },
   {
     id: 2,
-    name: "4K Outdoor Bullet Camera 8MP",
+    name: "CP Plus 4K Bullet Camera 8MP",
     category: "outdoor",
     tag: "Most Popular",
     tagColor: "#10b981",
@@ -38,9 +38,10 @@ const PRODUCTS = [
     reviews: 89,
     image: "outdoor_1.jpg",
     images: ["outdoor_1.jpg", "outdoor_2.jpg", "outdoor_3.jpg"],
-    shortDesc: "Ultra-sharp 4K outdoor bullet camera for gates and boundaries.",
-    description: "Our 4K Bullet Camera captures extraordinary detail — perfect for monitoring entrances, parking areas, and perimeter walls. Its robust weatherproof housing withstands rain, dust, and extreme temperatures. With 50m IR night vision and vandal-resistant build, it's the go-to choice for outdoor security.",
+    shortDesc: "CP Plus 4K outdoor bullet camera — ultra-sharp for gates & boundaries.",
+    description: "The CP Plus 4K Bullet Camera captures extraordinary detail — perfect for monitoring entrances, parking areas, and perimeter walls. Its robust weatherproof housing withstands rain, dust, and extreme temperatures. With 50m IR night vision and vandal-resistant build, it's the top choice for outdoor security.",
     specs: [
+      { label: "Brand", value: "CP Plus (Original)" },
       { label: "Resolution", value: "8MP – 4K Ultra HD" },
       { label: "Lens", value: "4mm Fixed / 2.7–13.5mm Varifocal" },
       { label: "Night Vision", value: "Smart IR, up to 50m" },
@@ -50,12 +51,12 @@ const PRODUCTS = [
       { label: "Power", value: "DC 12V / PoE" },
       { label: "Warranty", value: "1 Year" }
     ],
-    highlights: ["4K Ultra HD", "Night Vision 50m", "IP67 Waterproof", "IK10 Vandal Proof", "Wide Temperature Range"],
+    highlights: ["CP Plus Original", "4K Ultra HD", "Night Vision 50m", "IP67 Waterproof", "IK10 Vandal Proof"],
     inBox: ["1x Bullet Camera", "Mounting Bracket", "Screws & Anchors", "User Manual", "Warranty Card"]
   },
   {
     id: 3,
-    name: "3-Camera Combo Pack",
+    name: "CP Plus 3-Camera Combo Pack",
     category: "outdoor",
     tag: "Combo Deal",
     tagColor: "#6366f1",
@@ -65,24 +66,24 @@ const PRODUCTS = [
     reviews: 201,
     image: "combo_1.jpg",
     images: ["combo_1.jpg", "combo_2.jpg", "combo_3.jpg"],
-    shortDesc: "2 bullet cameras + 1 dome camera — complete outdoor combo.",
-    description: "Get complete coverage with this 3-camera combo — two heavy-duty outdoor bullet cameras and one wide-angle dome camera. Perfect for covering front gate, side walls, and main entrance together. All cameras are weatherproof and come with IR night vision for 24/7 surveillance.",
+    shortDesc: "CP Plus combo — 2 bullet + 1 dome camera for complete coverage.",
+    description: "Get complete coverage with this CP Plus 3-camera combo — two heavy-duty outdoor bullet cameras and one wide-angle dome camera. Perfect for covering front gate, side walls, and main entrance together. All cameras are weatherproof with IR night vision for 24/7 surveillance.",
     specs: [
+      { label: "Brand", value: "CP Plus (Original)" },
       { label: "Includes", value: "2x Bullet + 1x Dome Camera" },
       { label: "Resolution", value: "2MP – 1080p Full HD Each" },
       { label: "Night Vision", value: "IR LED up to 30m" },
       { label: "Weatherproof", value: "IP66 Rated" },
       { label: "Compatible", value: "All 4CH / 8CH DVR" },
-      { label: "Compression", value: "H.265+" },
       { label: "Power", value: "DC 12V" },
       { label: "Warranty", value: "1 Year Each" }
     ],
-    highlights: ["3 Cameras in One Pack", "Bullet + Dome Combo", "Night Vision 30m", "IP66 Weatherproof", "Save ₹2,500"],
+    highlights: ["CP Plus Original", "3 Cameras in One Pack", "Bullet + Dome Combo", "Night Vision 30m", "Save ₹2,500"],
     inBox: ["2x Bullet Cameras", "1x Dome Camera", "3x Mounting Brackets", "Screws & Anchors", "3x User Manuals"]
   },
   {
     id: 4,
-    name: "4 Camera Home Kit",
+    name: "CP Plus 4 Camera Home Kit",
     category: "kit",
     tag: "Complete Kit",
     tagColor: "#ef4444",
@@ -92,24 +93,24 @@ const PRODUCTS = [
     reviews: 312,
     image: "kit_1.jpg",
     images: ["kit_1.jpg", "combo_1.jpg", "install_1.jpg"],
-    shortDesc: "Everything you need — 4 HD cameras, DVR, HDD & cables. Free installation.",
-    description: "The complete home security solution. This kit includes four 2MP HD cameras, an 8-channel DVR, 1TB hard disk for continuous recording, and all cables needed for a standard home setup. Free professional installation included within Delhi NCR.",
+    shortDesc: "CP Plus complete kit — 4 HD cameras, DVR, HDD & cables. Free installation.",
+    description: "The complete CP Plus home security solution. This kit includes four 2MP HD cameras, an 8-channel DVR, 1TB hard disk for continuous recording, and all cables needed for a standard home setup. Free professional installation included within Kuchaman City area.",
     specs: [
+      { label: "Brand", value: "CP Plus (Original)" },
       { label: "Cameras", value: "4x 2MP HD (2 Dome + 2 Bullet)" },
       { label: "DVR", value: "8 Channel H.265+ DVR" },
       { label: "Hard Disk", value: "1TB Surveillance HDD" },
       { label: "Cable", value: "90m Co-axial Cable Included" },
       { label: "Night Vision", value: "IR LED up to 30m" },
       { label: "Mobile View", value: "iOS & Android App" },
-      { label: "Recording", value: "24/7 + Motion Triggered" },
-      { label: "Installation", value: "Free (Delhi NCR)" }
+      { label: "Installation", value: "Free (Kuchaman City)" }
     ],
-    highlights: ["4 HD Cameras", "8CH DVR Included", "1TB Hard Disk", "All Cables Included", "Free Installation"],
+    highlights: ["CP Plus Original", "4 HD Cameras", "8CH DVR Included", "1TB Hard Disk", "Free Installation"],
     inBox: ["4x HD Cameras", "1x 8CH DVR", "1x 1TB HDD", "90m Cable", "Power Adapters", "Mouse", "User Manual"]
   },
   {
     id: 5,
-    name: "PTZ Speed Dome Camera",
+    name: "CP Plus PTZ Speed Dome Camera",
     category: "ptz",
     tag: "Long Range",
     tagColor: "#0ea5e9",
@@ -119,24 +120,24 @@ const PRODUCTS = [
     reviews: 56,
     image: "ptz_1.jpg",
     images: ["ptz_1.jpg", "ptz_2.jpg", "combo_2.jpg"],
-    shortDesc: "360° pan, tilt and 20x optical zoom — covers large areas effortlessly.",
-    description: "The PTZ Speed Dome Camera is engineered for large properties — factories, warehouses, parking lots, and commercial buildings. With full 360° pan, 90° tilt, and 20x optical zoom, a single PTZ camera can replace multiple fixed cameras. Auto-tracking follows moving objects automatically.",
+    shortDesc: "CP Plus PTZ — 360° pan, tilt & 20x zoom for large area coverage.",
+    description: "The CP Plus PTZ Speed Dome Camera is engineered for large properties — factories, warehouses, parking lots, and commercial buildings. With full 360° pan, 90° tilt, and 20x optical zoom, a single PTZ camera can replace multiple fixed cameras. Auto-tracking follows moving objects automatically.",
     specs: [
+      { label: "Brand", value: "CP Plus (Original)" },
       { label: "Resolution", value: "2MP – 1080p Full HD" },
       { label: "Pan / Tilt", value: "360° Pan / 90° Tilt" },
       { label: "Optical Zoom", value: "20x (5–100mm)" },
       { label: "Night Vision", value: "Smart IR up to 100m" },
       { label: "Auto Tracking", value: "Yes – Motion Based" },
-      { label: "Presets", value: "300 Preset Positions" },
       { label: "Weatherproof", value: "IP66 Rated" },
       { label: "Warranty", value: "1 Year" }
     ],
-    highlights: ["360° Coverage", "20x Optical Zoom", "Night Vision 100m", "Auto Tracking", "300 Preset Positions"],
+    highlights: ["CP Plus Original", "360° Coverage", "20x Optical Zoom", "Night Vision 100m", "Auto Tracking"],
     inBox: ["1x PTZ Camera", "Mounting Bracket", "Power Supply", "RS485 Cable", "User Manual"]
   },
   {
     id: 6,
-    name: "8 Camera Business Kit",
+    name: "CP Plus 8 Camera Business Kit",
     category: "kit",
     tag: "Business",
     tagColor: "#f59e0b",
@@ -146,24 +147,24 @@ const PRODUCTS = [
     reviews: 78,
     image: "kit_2.jpg",
     images: ["kit_2.jpg", "combo_1.jpg", "install_2.jpg"],
-    shortDesc: "Full shop or office surveillance — 8 cameras, 16CH NVR, 2TB storage.",
-    description: "Designed for shops, offices, and medium businesses, this 8-camera kit provides complete coverage from every angle. Includes a powerful 16-channel NVR, 2TB hard disk for weeks of footage storage, remote mobile viewing, and professional installation by our team.",
+    shortDesc: "CP Plus business kit — 8 cameras, 16CH NVR, 2TB storage. Free install.",
+    description: "Designed for shops, offices, and medium businesses, this CP Plus 8-camera kit provides complete coverage from every angle. Includes a powerful 16-channel NVR, 2TB hard disk for weeks of footage storage, remote mobile viewing, and professional installation by our team.",
     specs: [
+      { label: "Brand", value: "CP Plus (Original)" },
       { label: "Cameras", value: "8x 2MP HD Cameras" },
       { label: "NVR", value: "16 Channel H.265+ NVR" },
       { label: "Hard Disk", value: "2TB Surveillance HDD" },
       { label: "Night Vision", value: "IR LED up to 30m" },
       { label: "Mobile View", value: "iOS & Android App" },
-      { label: "Recording", value: "24/7 Continuous" },
       { label: "Remote Access", value: "Yes – Via Internet" },
-      { label: "Installation", value: "Free (Delhi NCR)" }
+      { label: "Installation", value: "Free (Kuchaman City)" }
     ],
-    highlights: ["8 HD Cameras", "16CH NVR", "2TB Hard Disk", "Remote Access", "Free Installation"],
+    highlights: ["CP Plus Original", "8 HD Cameras", "16CH NVR", "2TB Hard Disk", "Free Installation"],
     inBox: ["8x HD Cameras", "1x 16CH NVR", "1x 2TB HDD", "Cables & Accessories", "Power Supplies", "Mouse", "User Manual"]
   },
   {
     id: 7,
-    name: "WiFi Smart Camera 2MP",
+    name: "CP Plus WiFi Smart Camera 2MP",
     category: "wifi",
     tag: "Wire-Free",
     tagColor: "#8b5cf6",
@@ -173,24 +174,24 @@ const PRODUCTS = [
     reviews: 167,
     image: "wifi_1.jpg",
     images: ["wifi_1.jpg", "wifi_2.jpg", "hikvision_2.jpg"],
-    shortDesc: "No wires needed — connect via WiFi and watch on your phone.",
-    description: "The WiFi Smart Camera is the easiest way to add security anywhere. Simply plug in and connect to your WiFi — no DVR, no wiring needed. Get instant motion alerts on your phone, talk two-way through the built-in mic & speaker, and store footage in the cloud or on a local SD card.",
+    shortDesc: "CP Plus WiFi camera — no wires, watch live on your phone anytime.",
+    description: "The CP Plus WiFi Smart Camera is the easiest way to add security anywhere. Simply plug in and connect to your WiFi — no DVR, no wiring needed. Get instant motion alerts on your phone, talk two-way through the built-in mic & speaker, and store footage on SD card or cloud.",
     specs: [
+      { label: "Brand", value: "CP Plus (Original)" },
       { label: "Resolution", value: "2MP – 1080p Full HD" },
       { label: "Connectivity", value: "WiFi 2.4GHz / 5GHz" },
       { label: "Night Vision", value: "Colour Night Vision up to 10m" },
       { label: "Audio", value: "Two-Way Audio (Mic + Speaker)" },
       { label: "Storage", value: "Cloud + MicroSD up to 256GB" },
       { label: "Motion Alert", value: "Push Notification on App" },
-      { label: "App", value: "iOS & Android (Free)" },
       { label: "Warranty", value: "1 Year" }
     ],
-    highlights: ["Wire-Free Setup", "Live View on Phone", "Motion Alerts", "Two-Way Audio", "Cloud + SD Storage"],
+    highlights: ["CP Plus Original", "Wire-Free Setup", "Live View on Phone", "Motion Alerts", "Two-Way Audio"],
     inBox: ["1x WiFi Camera", "Power Adapter", "Mounting Stand", "User Manual"]
   },
   {
     id: 8,
-    name: "Outdoor Solar WiFi Camera",
+    name: "CP Plus Solar WiFi Camera",
     category: "wifi",
     tag: "Solar Powered",
     tagColor: "#10b981",
@@ -200,21 +201,21 @@ const PRODUCTS = [
     reviews: 67,
     image: "install_1.jpg",
     images: ["install_1.jpg", "outdoor_2.jpg", "wifi_2.jpg"],
-    shortDesc: "Solar-powered outdoor camera — no wires, no electricity bill.",
-    description: "The Solar WiFi Camera is perfect for locations without power access — farms, boundary walls, remote gates. The built-in solar panel keeps the battery charged continuously. It connects to your home WiFi and sends motion alerts directly to your phone with live video.",
+    shortDesc: "CP Plus solar camera — no electricity needed, works anywhere outdoors.",
+    description: "The CP Plus Solar WiFi Camera is perfect for locations without power access — farms, boundary walls, remote gates. The built-in solar panel keeps the battery charged continuously. Connects to your WiFi and sends motion alerts directly to your phone with live video.",
     specs: [
+      { label: "Brand", value: "CP Plus (Original)" },
       { label: "Resolution", value: "2MP – 1080p Full HD" },
       { label: "Power", value: "Solar Panel + 5000mAh Battery" },
       { label: "Connectivity", value: "WiFi 2.4GHz" },
       { label: "Night Vision", value: "Colour Night Vision 10m" },
       { label: "Weatherproof", value: "IP67 Rated" },
       { label: "Storage", value: "MicroSD up to 128GB" },
-      { label: "Motion Alert", value: "Yes – App Notification" },
       { label: "Warranty", value: "1 Year" }
     ],
-    highlights: ["Solar Powered", "No Wiring Needed", "IP67 Waterproof", "Motion Alerts", "Live Mobile View"],
+    highlights: ["CP Plus Original", "Solar Powered", "No Wiring Needed", "IP67 Waterproof", "Motion Alerts"],
     inBox: ["1x Solar Camera", "Solar Panel", "Mounting Bracket", "USB Cable", "User Manual"]
   }
 ];
 
-const FEATURED_IDS = [1, 2, 3, 4];
+const FEATURED_IDS = [1, 2, 4, 7];
