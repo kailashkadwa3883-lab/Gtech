@@ -50,7 +50,7 @@ const PRODUCTS = [
     highlights: ["4MP Full Color Night Vision", "Built-in Microphone", "IR Range 60m", "H.265+ Compression", "IP67 Rated", "AcuSense Technology"],
     specs: [
       { label: "Model", value: "DS-2CD2T47G2-L" },
-      { label: "Image Sensor", value: "1/2.7\" Progressive Scan CMOS" },
+      { label: "Image Sensor", value: "1/2.7 inch Progressive Scan CMOS" },
       { label: "Max. Resolution", value: "2688 × 1520 (4MP)" },
       { label: "Min. Illumination", value: "Color: 0.0005 Lux @ F1.6 | 0 Lux with IR" },
       { label: "Lens", value: "2.8mm / 4mm / 6mm Fixed" },
@@ -118,11 +118,11 @@ const PRODUCTS = [
     image: "outdoor_2.jpg",
     images: ["outdoor_2.jpg", "outdoor_1.jpg", "outdoor_3.jpg"],
     shortDesc: "5MP IR Bullet Camera — DWDR, Built-in Mic, Smart IR 30m, IP67.",
-    description: "The CP-USC-TC51PL3C is a 5MP IR Bullet Camera with 1/2.7\" 5MP P5 CMOS image sensor. Features DWDR, Day/Night ICR, 2D-DNR, AWB, BLC, HLC and support for Built-in Mic. Ideal for outdoor surveillance with 30m Smart IR range.",
+    description: "The CP-USC-TC51PL3C is a 5MP IR Bullet Camera with 1/2.7 inch 5MP P5 CMOS image sensor. Features DWDR, Day/Night ICR, 2D-DNR, AWB, BLC, HLC and support for Built-in Mic. Ideal for outdoor surveillance with 30m Smart IR range.",
     highlights: ["5MP P5 CMOS Sensor", "Smart IR 30m, IP67", "Support Built-in Mic", "DWDR / Day/Night ICR", "2D-DNR, AWB, BLC, HLC", "CVI/CVBS/AHD/TVI Switchable"],
     specs: [
       { label: "Model", value: "CP-USC-TC51PL3C" },
-      { label: "Image Sensor", value: "1/2.7\" 5MP P5 CMOS Image Sensor (0.9407 cm)" },
+      { label: "Image Sensor", value: "1/2.7 inch 5MP P5 CMOS Image Sensor (0.9407 cm)" },
       { label: "Max. Resolution", value: "2880 (H) × 1620 (V)" },
       { label: "Min. Illumination", value: "0.02 Lux/F2.0, 30 IRE, 0 Lux IR on" },
       { label: "Shutter Speed", value: "PAL: 1/25s – 1/100,000s | NTSC: 1/30s – 1/100,000s" },
@@ -420,7 +420,7 @@ const PRODUCTS = [
     image: "bullet_ip.png",
     images: ["bullet_ip.png", "outdoor_1.jpg", "outdoor_2.jpg"],
     shortDesc: "2MP IP Bullet — H.265, Built-in Mic, PoE, IP67, IR 30m.",
-    description: "The CP-UNC-TA21L3C-Q is a 2MP Network IR Bullet Camera with 1/2.8" PS CMOS sensor. Features Instastream H.265 compression, built-in microphone, Triple stream support, DWDR, 3D NR, and Power over Ethernet (PoE). Ideal for IP-based surveillance systems with remote viewing.",
+    description: "The CP-UNC-TA21L3C-Q is a 2MP Network IR Bullet Camera with 1/2.8 inch PS CMOS sensor. Features Instastream H.265 compression, built-in microphone, Triple stream support, DWDR, 3D NR, and Power over Ethernet (PoE). Ideal for IP-based surveillance systems with remote viewing.",
     highlights: [
       "2MP PS CMOS – 1920×1080@25fps",
       "Built-in Microphone",
@@ -431,7 +431,7 @@ const PRODUCTS = [
     ],
     specs: [
       { label: "Model", value: "CP-UNC-TA21L3C-Q" },
-      { label: "Image Sensor", value: "1/2.8" 2MP PS CMOS (0.9071 cm)" },
+      { label: "Image Sensor", value: "1/2.8 inch 2MP PS CMOS (0.9071 cm)" },
       { label: "Max. Resolution", value: "1920 × 1080 @ 1–25/30fps" },
       { label: "Video Compression", value: "Instastream, H.265, H.264, H.264H, H.264B, MJPEG" },
       { label: "Stream", value: "Triple Stream Support" },
@@ -457,7 +457,7 @@ const PRODUCTS = [
     image: "box_cam.png",
     images: ["box_cam.png", "bullet_ip.png", "outdoor_1.jpg"],
     shortDesc: "2MP WDR Box Camera — C/CS Mount, 120dB WDR, Built-in Mic, SD Card.",
-    description: "The CP-UNC-BE21C-VMDS-Q is a professional 2MP Full HD WDR Network Box Camera with 1/2.9" PS CMOS sensor. Features 120dB WDR, Defog, EIS, Quad Stream, 2/1 alarm I/O, built-in mic, Micro SD card support, and PoE for flexible deployment in critical surveillance areas.",
+    description: "The CP-UNC-BE21C-VMDS-Q is a professional 2MP Full HD WDR Network Box Camera with 1/2.9 inch PS CMOS sensor. Features 120dB WDR, Defog, EIS, Quad Stream, 2/1 alarm I/O, built-in mic, Micro SD card support, and PoE for flexible deployment in critical surveillance areas.",
     highlights: [
       "2MP Full HD – 1920×1080@25fps",
       "120dB Wide Dynamic Range (WDR)",
@@ -468,7 +468,7 @@ const PRODUCTS = [
     ],
     specs: [
       { label: "Model", value: "CP-UNC-BE21C-VMDS-Q" },
-      { label: "Image Sensor", value: "1/2.9" 2MP PS CMOS (0.8758 cm)" },
+      { label: "Image Sensor", value: "1/2.9 inch 2MP PS CMOS (0.8758 cm)" },
       { label: "Max. Resolution", value: "1920 × 1080 @ 1–25/30fps" },
       { label: "Lens Mount", value: "C/CS Mount" },
       { label: "Video Compression", value: "Instastream, H.265, H.264, H.264B, H.264H, MJPEG" },
